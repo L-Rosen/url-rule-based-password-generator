@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Safe Password Holder",
+    "description": "A rule system based password generator/holder with no password saved",
+    "version": "0.1",
+    "permissions": [],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "",
+        "48": "",
+        "128": ""
+      }
+    },
+    "icons": {
+      "16": "",
+      "48": "",
+      "128": ""
+    }
+  }
+  
