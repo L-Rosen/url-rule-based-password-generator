@@ -2,12 +2,26 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>Test</title>
+  <title>Générateur de Mot de Passe</title>
   <link rel="stylesheet" href="popup.css">
 </head>
 <body>
-  <h1>Bienvenue</h1>
-  <button id="actionBtn">Cliquez-moi</button>
+  <h1>Générateur de Mot de Passe</h1>
+  <div>
+    <label for="ruleSelector">Sélectionnez une règle :</label>
+    <select id="ruleSelector">
+      <!-- Les options seront ajoutées dynamiquement -->
+    </select>
+  </div>
+  <div id="ruleArgsContainer">
+    <!-- Les arguments de la règle sélectionnée seront affichés ici -->
+  </div>
+  <button id="addRuleBtn">Ajouter la règle</button>
+  <ul id="activeRulesList">
+    <!-- Les règles actives seront affichées ici -->
+  </ul>
+  <button id="generateBtn">Générer le mot de passe</button>
+  <p id="passwordOutput"></p>
   <script src="popup.js"></script>
 </body>
 </html>
